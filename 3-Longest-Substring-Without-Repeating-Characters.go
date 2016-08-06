@@ -12,8 +12,7 @@ func lengthOfLongestSubstring(s string) int {
 			count=0
 			log=make(map[uint8]int)
 			i=temp
-		}
-		else {
+		} else {
 			count++
 		}
 	}
